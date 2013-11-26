@@ -1,0 +1,132 @@
+#bookmarks {
+  padding-top:4px;
+}
+
+#footer {
+  visibility: hidden;
+}
+
+#logo span,
+.pin_logo,
+#timer {
+  display: none!important;
+}
+
+#right_bar {
+  margin-left: 0;
+}
+
+.search_button {
+  margin-top: 0;
+}
+
+.input#search_query_field {
+  padding: 5px 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  padding: 7px 20px 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #7FC10B;
+  color: white;
+  font-weight: bold;
+}
+
+.small_username b a {
+  color: #666!important;
+}
+
+.user_navbar a {
+  color: #999!important;
+}
+
+.next_prev,
+#per_page_picker a {
+  font-size: 16px;
+}
+
+#pinboard_name {
+  font-weight: 900;
+}
+
+.bookmark_title  {
+  color: #369FE9!important;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bookmark_title.unread,
+.bookmark_title.unread:visited {
+  color: #FF9113!important;
+}
+
+.display a {
+  color: transparent;
+}
+
+.star {
+  float:right!important;
+}
+
+.bookmark:hover .star {
+  visibility: visible!important;
+  color: #ccc!important;
+}
+
+.bookmark:hover .selected_star:hover,
+.bookmark:hover .selected_star {
+  visibility: visible!important;
+  color: #F7B42C!important;
+}
+.bookmark:hover .star:hover {
+  visibility: visible!important;
+  color: #F7B42C!important;
+}
+
+.star.selected_star {
+  visibility: visible!important;
+  color: #F7B42C!important;
+}
+
+.when, .edit_links, .star {
+  visibility:hidden!important;
+}
+
+.bookmark:hover .when,
+.bookmark:hover .edit_links a {
+  visibility:visible!important;
+  color: #369FE9!important;
+}
+
+a {
+  color: #369FE9!important;
+}
+
+.bookmark:hover .when {
+  color: #999!important;
+}
+
+.tag,
+.per_page_selected {
+  padding: 3px 6px;
+  background-color: #FDF0D5!important;
+  color: #FF9113!important;
+  font-weight: bold;
+}
+
+.bookmark,
+#banner {
+  border-bottom: 1px solid #eee;
+}
+
+.tag_table a {
+  display: block;
+  margin-bottom: 3px;
+  color: #FF9113!important;
+  font-weight: normal;
+  font-size: 16px!important;
+  line-height: 100%!important;
+}
