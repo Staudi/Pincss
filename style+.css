@@ -1,0 +1,11 @@
+#banner,
+#right_bar,
+#tag_cloud,
+.user_navbar {
+display:none!important;
+}
+
+#main_column {
+float: none;
+margin: 0 auto;
+}
