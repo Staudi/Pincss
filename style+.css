@@ -1,8 +1,17 @@
-#banner,
+#top_menu,
 #right_bar,
 #tag_cloud,
 .user_navbar {
 display:none!important;
+}
+
+#logo {
+position: fixed;
+top: 25px
+}
+
+#banner {
+border-bottom: none!important;
 }
 
 #main_column {
