@@ -2,19 +2,19 @@
 #right_bar,
 #tag_cloud,
 .user_navbar {
-display:none!important;
+  display:none!important;
 }
 
 #logo {
-position: fixed;
-top: 25px
+  position: fixed!important;
+  top: 25px!important
 }
 
-#banner {
-border-bottom: none!important;
+body #banner {
+  border-bottom: none!important;
 }
 
 #main_column {
-float: none;
-margin: 0 auto;
+  float: none!important;
+  margin: 0 auto!important;
 }

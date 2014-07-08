@@ -1,5 +1,14 @@
 #bookmarks {
-  padding-top:4px;
+  padding-top:4px!important;
+}
+
+.private {
+  background: transparent!important;
+  border: none!important;
+}
+
+.private .bookmark_title {
+  color: #FF2E54!important;
 }
 
 #footer {
@@ -13,26 +22,52 @@
 }
 
 #right_bar {
-  margin-left: 0;
+  margin-left: 0!important;
 }
 
 .search_button {
-  margin-top: 0;
+  margin-top: 0!important;
 }
 
 .input#search_query_field {
-  padding: 5px 2px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  padding: 5px 2px!important;
+  border: 1px solid #ccc!important;
+  border-radius: 3px!important;
 }
 
-input[type="submit"] {
-  padding: 7px 20px 8px;
-  border: none;
-  border-radius: 3px;
-  background-color: #7FC10B;
-  color: white;
-  font-weight: bold;
+input[type="submit"],
+input[type="button"],
+input.submit,
+input.reset {
+  padding: 7px 20px 8px!important;
+  border: none!important;
+  border-radius: 3px!important;
+  background: #7FC10B!important;
+  color: white!important;
+  font-weight: bold!important;
+}
+
+input[type="button"],
+input.submit,
+input.reset {
+  background: #EEEEEE!important;
+  color: #555!important;
+}
+
+input,
+textarea {
+  padding: 7px 8px!important;
+  border: 1px solid #ddd;
+  border-radius: 3px!important;
+  color: #555!important;
+  font-weight: bold!important;
+}
+
+#edit_bookmark_form input[type="button"]:hover,
+input.submit:hover,
+input.reset:hover {
+  background: #7FC10B!important;
+  color: #FFF!important;
 }
 
 .small_username b a {
@@ -45,26 +80,22 @@ input[type="submit"] {
 
 .next_prev,
 #per_page_picker a {
-  font-size: 16px;
+  font-size: 16px!important;
 }
 
 #pinboard_name {
-  font-weight: 900;
+  font-weight: 900!important;
 }
 
 .bookmark_title  {
   color: #369FE9!important;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: bold!important;
+  font-size: 16px!important;
 }
 
 .bookmark_title.unread,
 .bookmark_title.unread:visited {
   color: #FF9113!important;
-}
-
-.display a {
-  color: transparent;
 }
 
 .star {
@@ -114,19 +145,29 @@ a {
   padding: 3px 6px;
   background-color: #FDF0D5!important;
   color: #FF9113!important;
-  font-weight: bold;
+  font-weight: bold!important;
 }
 
-.bookmark,
+.bookmark {
+  border-bottom: 1px solid #eee!important;
+}
+
 #banner {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee!important;
 }
 
 .tag_table a {
-  display: block;
-  margin-bottom: 3px;
+  display: block!important;
+  margin-bottom: 3px!important;
   color: #FF9113!important;
-  font-weight: normal;
+  font-weight: normal!important;
   font-size: 16px!important;
   line-height: 100%!important;
+  border-radius: 3px!important;
+}
+
+#edit_bookmark_form input {
+  line-height: 1.8!important;
+  font-size: 110%!important;
+  padding-top: 0.35rem!important;
 }
